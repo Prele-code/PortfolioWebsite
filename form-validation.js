@@ -25,8 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (validationErrors.length > 0) {
       alert(validationErrors.join("\n"));
     } else {
-      // Proceed with form submission
-      document.querySelector("form").submit();
+      this.submit();
     }
   });
 });
